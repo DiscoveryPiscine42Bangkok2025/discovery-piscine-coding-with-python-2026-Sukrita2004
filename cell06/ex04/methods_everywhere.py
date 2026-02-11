@@ -2,14 +2,12 @@
 
 import sys
 
-def shrink(s):
-    print(s[:8])
-
-def enlarge(s):
-    while len(s) < 8:
-        s += "Z"
-    print(s)
-
+def shrink(c):
+    print(c[:8])
+def enlarge(c):
+    while len(c) < 8:
+        c += "Z"
+    print(c)
 if len(sys.argv) == 1:
     print("none")
 else:
