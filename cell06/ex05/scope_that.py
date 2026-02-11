@@ -4,9 +4,7 @@ def add_one(n):
     n = n + 1
     print("Inside add_one:", n)
 
-number = 5
+number = 65
 print("Before calling add_one:", number)
-
 add_one(number)
-
 print("After calling add_one:", number)
