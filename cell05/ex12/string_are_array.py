@@ -12,3 +12,5 @@ else:
         print("none")
     else:
         print("z" * count_z)
+
+# "xiao zhan" "Zhang" "zhinkkd"
