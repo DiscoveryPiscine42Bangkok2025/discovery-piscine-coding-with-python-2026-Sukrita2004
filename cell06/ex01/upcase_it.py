@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def upcase_it(s):
-    return s.upper()
+def upcase_it(i):
+    return i.upper()
 
 print(upcase_it("hello"))
