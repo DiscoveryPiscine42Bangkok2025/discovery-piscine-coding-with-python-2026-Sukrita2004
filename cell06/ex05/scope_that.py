@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-def add_one(n):
-    n = n + 1
-    print("Inside add_one:", n)
+def add_one(num):
+    num = num + 1
+    print("Inside add_one:", num)
 
 number = 65
 print("Before calling add_one:", number)
